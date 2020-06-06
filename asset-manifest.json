@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/pokemondex/static/js/main.99656023.chunk.js",
+    "main.js.map": "/pokemondex/static/js/main.99656023.chunk.js.map",
+    "runtime-main.js": "/pokemondex/static/js/runtime-main.188d31a5.js",
+    "runtime-main.js.map": "/pokemondex/static/js/runtime-main.188d31a5.js.map",
+    "static/js/2.ecf1c682.chunk.js": "/pokemondex/static/js/2.ecf1c682.chunk.js",
+    "static/js/2.ecf1c682.chunk.js.map": "/pokemondex/static/js/2.ecf1c682.chunk.js.map",
+    "index.html": "/pokemondex/index.html",
+    "precache-manifest.ace755c45749725058d4282ed1f3b066.js": "/pokemondex/precache-manifest.ace755c45749725058d4282ed1f3b066.js",
+    "service-worker.js": "/pokemondex/service-worker.js",
+    "static/js/2.ecf1c682.chunk.js.LICENSE.txt": "/pokemondex/static/js/2.ecf1c682.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.188d31a5.js",
+    "static/js/2.ecf1c682.chunk.js",
+    "static/js/main.99656023.chunk.js"
+  ]
+}
