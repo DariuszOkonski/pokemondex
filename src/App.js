@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import data from './data/data';
 import CardContainer from './CardContainer';
+import Loader from './Loader';
 
 class App extends Component {
   state = { 
@@ -18,7 +19,7 @@ class App extends Component {
         {
           this.state.isLoading
           ?
-          <h1>IsLoading</h1>
+          <Loader/>
           :
           <CardContainer data={data} click={this.handleIsLoading} />          
         }

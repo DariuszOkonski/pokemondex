@@ -1,5 +1,6 @@
 @import 'handwrapper';
 @import 'card';
+@import 'loader';
 
 *, *::before, *::after {
     margin: 0;
@@ -20,10 +21,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    h1 {
-        color: red;
-    }
 }
 
 .btn-container {
