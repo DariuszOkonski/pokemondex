@@ -9,6 +9,8 @@ const Card = (props) => {
         <div>
             <h2>{name}</h2>
             <img src={`${API}${id}.png`} alt={name}/>
+            <p>Type: {type}</p>
+            <p>Exp: {experience}</p>
         </div>
      );
 }
