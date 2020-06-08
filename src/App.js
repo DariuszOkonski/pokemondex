@@ -5,11 +5,21 @@ import Loader from './Loader';
 
 class App extends Component {
   state = { 
-    isLoading: true
+    isLoading: false
   }
 
   handleIsLoading = () => {
-    console.log('Handle is loading')
+    const timeSpan = Math.floor(Math.random() * 1000) + 1000;
+
+    this.setState({
+      isLoading: true
+    })
+
+    setTimeout(() => {
+      this.setState({
+        isLoading: false
+      })
+    }, timeSpan);
   }
 
   render() { 
