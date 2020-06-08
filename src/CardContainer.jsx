@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
+import HandWrapper from './HandWrapper';
 
 class CardContainer extends Component {
     state = { 
@@ -36,16 +37,12 @@ class CardContainer extends Component {
     } 
     
     render() { 
+        const {hand1, hand2, hand1Score, hand2Score} = this.state;
+
         return ( 
             <div>
-            {
-                this.props.data.map(card => 
-                    <Card
-                        key={card.id}
-                        card={card}
-                    />)
-            }
-        </div>
+                <HandWrapper hasWon={hand1Score > hand2Score} cardArray={hand1} score={hand1Score} />
+            </div>
          );
     }
 }
