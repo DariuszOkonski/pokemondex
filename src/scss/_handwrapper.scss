@@ -1,0 +1,25 @@
+.hand-wrapper {
+    text-align: center;
+
+    &__title {
+        font-size: 2rem;
+    }
+
+    &__title-won {
+        color: green;
+    }
+
+    &__title-lost {
+        color: red;
+    }
+
+    &__score {
+        color: aquamarine;
+    }
+
+    &__card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
