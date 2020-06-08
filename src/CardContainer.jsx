@@ -41,6 +41,13 @@ class CardContainer extends Component {
 
         return ( 
             <div>
+                <div className="btn-container">
+                    <button 
+                        onClick={this.props.click}
+                        className="btn-play"
+                    >Play</button>
+                </div>
+
                 <HandWrapper hasWon={hand1Score > hand2Score} cardArray={hand1} score={hand1Score} />
                 <HandWrapper hasWon={hand1Score < hand2Score} cardArray={hand2} score={hand2Score} />
             </div>

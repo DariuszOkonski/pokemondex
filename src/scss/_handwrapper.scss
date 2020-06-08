@@ -1,8 +1,10 @@
 .hand-wrapper {
     text-align: center;
+    margin: 1rem 0;
 
     &__title {
         font-size: 2rem;
+        margin: 1rem 0;
     }
 
     &__title-won {
@@ -15,11 +17,13 @@
 
     &__score {
         color: aquamarine;
+        margin: 1rem 0;
     }
 
     &__card-container {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
     }
 }

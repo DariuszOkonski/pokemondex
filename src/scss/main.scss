@@ -1,7 +1,52 @@
 @import 'handwrapper';
+@import 'card';
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background-color: #283c34;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: red;
+    }
+}
+
+.btn-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn-play {
+        display: inline-block;
+        margin: 0 auto;
+        width: 200px;
+        border-radius: 10px;
+        border: none;
+        font-size: 1.4rem;
+        padding: 0.4rem;
+        transition: all .2s;
+        @media(min-width: 1024px) {
+            &:hover {
+                cursor: pointer;
+                background-color: black;
+                color: white;
+            }
+        }
+    }
 }
